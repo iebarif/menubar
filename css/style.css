@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* ----------------- MenuBar Start---------------- */
+.menubar{
+   background:rgb(96, 250, 255);
+    position: fixed;
+    width: 100%;
+    
+}
+
+.alignment{
+    width: 80%;
+    margin: auto;
+    color: rgb(88, 2, 42);
+}
+.main_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    
+   
+}
+.menu{
+    display: flex;
+    list-style: none;
+    height: 60px;
+    align-items: center;
+    font-size: 14pt;
+}
+a{
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.menu li a:hover{
+    background: rgb(253, 253, 253);
+    font-size: 15pt;
+    color: rgb(255, 108, 4);
+    transition: 0.5s;
+}
+.dropmenu{
+    display: none;
+    
+}
+.dropmenu li{
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu li:hover .dropmenu{
+    display:block;
+    padding: 20px 25px ;
+    background:rgb(96, 250, 255);
+    position: absolute;
+    font-weight: 400;
+    font-size: large;
+    transition: 0.5s;
+}
+.menu li{
+    position: relative;
+
+}
+
+
+
+
+/* ----------------- MenuBar Start---------------- */
+
+
+/* ----------------- Login Page Start---------------- */
+/* .form_part{
+    background: #ffffff;
+    padding: 50px 0;
+}
+.form_con_part{
+    width: 450px;
+    background-color: rgb(250, 98, 149); 
+    margin: 60px auto;
+    padding: 30px 15px 15px;
+}
+.form_input label{
+    display: block;
+    margin-bottom: -34px;
+    z-index: 1;
+    position:relative;
+}
+.form_input input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: 0;
+}
+.form_input{
+    padding-bottom: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: 600;
+}
+.form_input input:focus{
+    background-color: rgb(255, 240, 247);
+  
+    font-weight: 600px;
+    transition: 0.4s;
+} 
+.form_input:has(input:focus) label{
+    margin-bottom: 10px;
+    transition: 0.6s;
+} */
+
+.form_part{
+    background: rgb(255, 255, 255);
+    padding: 50px 0;
+}
+
+.form_con_part{
+    width: 480px;
+    background: cadetblue;
+    margin: 60px auto;
+    padding: 40px 20px 15px;
+   
+}
+.form_input label{
+    display: block; 
+    margin-bottom: -25px;  
+    z-index: 1;
+    position: relative; 
+}
+.form_input{
+    padding-bottom: 10px;
+}
+.form_input input{
+    height: 40px;
+    width: 100%;
+    padding: 15px;
+    outline: 0;
+    border: none;
+}
+.form_input input:focus{
+    background: rebeccapurple;
+    transition: 0.4s;
+    color: whitesmoke;
+}
+
+.form_input:has(input:focus) label{
+    margin-bottom: 10px;
+    transition: 0.4s;
+}
+/* ----------------- Login Page End---------------- */
